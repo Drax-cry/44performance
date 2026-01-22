@@ -24,17 +24,18 @@ const Header = () => {
            
         <div className="flex items-center justify-between h-20">
           <motion.a
-            href="#home"
-            className="font-display text-2xl tracking-widest"
-           
-          >
-            <img
-              src="/logoO.png"
-              alt="Logo"
-              className="w-20 h-20 rounded-full object-cover"
-            />
-           
-          </motion.a>
+  href="#home"
+  className="font-display text-2xl tracking-widest"
+>
+  <div className="flex items-center gap-3">
+    <img
+      src="/logoO.png"
+      alt="Logo"
+      className="w-20 h-20 rounded-full object-cover"
+    />
+    <p className="leading-none">PERFORMANCE</p>
+  </div>
+</motion.a>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-8">

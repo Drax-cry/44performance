@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { ArrowDown } from "lucide-react";
 import { Button } from "./ui/button";
-import heroImage from "@/assets/tessss.png";
+import heroImage from "@/assets/aghe.jpeg";
 
 const HeroSection = () => {
   return (

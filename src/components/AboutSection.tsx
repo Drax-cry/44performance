@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Award, Trophy, Clock } from "lucide-react";
-import aboutPhoto from "@/assets/ag.png";
+import aboutPhoto from "@/assets/agbea.jpg";
 
 const highlights = [
   {
@@ -43,7 +43,7 @@ const AboutSection = () => {
 
             <div className="space-y-6 text-muted-foreground font-body leading-relaxed">
               <p>
-                Bem-vindo ao 44 PERFORMANCE, o espaço dedicado ao desenvolvimento de atletas de alta performance liderado por Arghus Soares Bordignon 
+                Fala meu Craque!!!Bem-vindo ao 44 PERFORMANCE, o espaço dedicado ao desenvolvimento de atletas de alta performance liderado por Arghus Soares Bordignon 
                 — ex-jogador profissional com carreira internacional e agora treinador especializado em performance esportiva.
               </p>
               <p>
@@ -85,7 +85,7 @@ const AboutSection = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="relative"
           >
-            <div className="aspect-[4/5] bg-secondary border border-border relative overflow-hidden">
+            <div className="aspect-[4/5] bg-secondary border border-bor der relative overflow-hidden">
               <img
                 src={aboutPhoto}
                 alt="Preparador físico"
@@ -100,7 +100,7 @@ const AboutSection = () => {
             </div>
 
             {/* Decorative line */}
-            <div className="absolute -right-4 top-1/2 w-32 h-px bg-border hidden lg:block" />
+           
           </motion.div>
         </div>
       </div>
