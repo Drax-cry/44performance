@@ -3,7 +3,7 @@ import { Instagram, Linkedin, Youtube } from "lucide-react";
 
 const Footer = () => {
   const socialLinks = [
-    { icon: Instagram, href: "#", label: "Instagram" },
+    { icon: Instagram, href: "https://www.instagram.com/44performancetraining/", label: "Instagram" },
     { icon: Youtube, href: "#", label: "YouTube" },
     { icon: Linkedin, href: "#", label: "LinkedIn" },
   ];

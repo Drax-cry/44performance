@@ -1,124 +1,62 @@
-import { motion, useInView } from "framer-motion";
-import { useRef, useEffect, useState } from "react";
-
-const stats = [
-  { value: 150, suffix: "+", label: "Atletas Formados" },
-  { value: 12, suffix: "", label: "Anos de Experiência" },
-  { value: 47, suffix: "", label: "Medalhas Conquistadas" },
-  { value: 98, suffix: "%", label: "Taxa de Sucesso" },
-];
-
-const AnimatedNumber = ({
-  value,
-  suffix,
-  inView,
-}: {
-  value: number;
-  suffix: string;
-  inView: boolean;
-}) => {
-  const [count, setCount] = useState(0);
-
-  useEffect(() => {
-    if (!inView) return;
-
-    const duration = 2000;
-    const steps = 60;
-    const stepValue = value / steps;
-    let current = 0;
-
-    const timer = setInterval(() => {
-      current += stepValue;
-      if (current >= value) {
-        setCount(value);
-        clearInterval(timer);
-      } else {
-        setCount(Math.floor(current));
-      }
-    }, duration / steps);
-
-    return () => clearInterval(timer);
-  }, [inView, value]);
-
-  return (
-    <span>
-      {count}
-      {suffix}
-    </span>
-  );
+type VideoItem = {
+  id: string;
+  title: string;
+  srcMp4: string;
 };
 
-const ResultsSection = () => {
-  const ref = useRef(null);
-  const isInView = useInView(ref, { once: true });
+const VIDEO: VideoItem = {
+  id: "1",
+  title: "Metodologia 44",
+  srcMp4: "/videos/vd.mp4",
+};
 
+function VideoGrid() {
   return (
-    <section
-      id="results"
-      className="py-32 bg-secondary relative overflow-hidden"
-    >
-      <div className="absolute inset-0 bg-noise pointer-events-none" />
+    <section className="px-6 py-28 bg-neutral-900">
+      <div className="max-w-7xl mx-auto">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+          
+          {/* ================= TEXTO - ESQUERDA ================= */}
+          <div className="space-y-6">
+            <p className="text-xs tracking-[0.3em] uppercase text-neutral-400">
+              Performance
+            </p>
 
-      {/* Decorative Elements */}
-      <div className="absolute top-0 right-0 w-1/3 h-full bg-gradient-to-l from-foreground/5 to-transparent" />
+            <h2 className="font-display text-4xl md:text-5xl text-white">
+              Metodologia 44
+            </h2>
 
-      <div className="container mx-auto px-6">
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
-          className="mb-20"
-        >
-          <p className="font-body text-sm tracking-[0.3em] uppercase text-muted-foreground mb-4">
-            Números que Falam
-          </p>
-          <h2 className="font-display text-5xl md:text-7xl">RESULTADOS</h2>
-        </motion.div>
+            <p className="text-neutral-300 text-lg leading-relaxed">
+              A Metodologia 44 é um sistema de desenvolvimento de atletas de
+              alta performance, focado em acelerar a evolução técnica,
+              física e mental dentro de contextos reais de jogo.
+            </p>
 
-        <div ref={ref} className="grid grid-cols-2 lg:grid-cols-4 gap-8">
-          {stats.map((stat, index) => (
-            <motion.div
-              key={stat.label}
-              initial={{ opacity: 0, scale: 0.9 }}
-              whileInView={{ opacity: 1, scale: 1 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="text-center"
-            >
-              <p className="font-display text-6xl md:text-8xl mb-2">
-                <AnimatedNumber
-                  value={stat.value}
-                  suffix={stat.suffix}
-                  inView={isInView}
-                />
-              </p>
-              <p className="font-body text-sm tracking-widest uppercase text-muted-foreground">
-                {stat.label}
-              </p>
-            </motion.div>
-          ))}
+            <p className="text-neutral-400 leading-relaxed">
+              Cada sessão é desenhada para exigir tomada de decisão rápida,
+              leitura tática e intensidade máxima, formando atletas mais
+              preparados, confiantes e consistentes para o alto rendimento.
+            </p>
+          </div>
+
+          {/* ================= VÍDEO - DIREITA (VERTICAL GRANDE) ================= */}
+          <div className="flex justify-center lg:justify-end">
+            <div className="relative w-[280px] sm:w-[320px] md:w-[360px] lg:w-[380px] xl:w-[420px] aspect-[9/16] rounded-3xl overflow-hidden border border-neutral-700 bg-black shadow-2xl">
+              <video
+                className="absolute inset-0 w-full h-full object-cover"
+                controls
+                playsInline
+                preload="metadata"
+              >
+                <source src={VIDEO.srcMp4} type="video/mp4" />
+              </video>
+            </div>
+          </div>
+
         </div>
-
-        {/* Testimonial */}
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6, delay: 0.3 }}
-          className="mt-24 max-w-3xl mx-auto text-center"
-        >
-          <blockquote className="font-body text-xl md:text-2xl italic text-foreground/80 mb-6">
-            "A metodologia transformou completamente minha abordagem ao
-            treinamento. Os resultados vieram mais rápido do que eu imaginava."
-          </blockquote>
-          <cite className="font-body text-sm tracking-widest uppercase text-muted-foreground not-italic">
-            — João, Atelta de futebol 
-          </cite>
-        </motion.div>
       </div>
     </section>
   );
-};
+}
 
-export default ResultsSection;
+export default VideoGrid;

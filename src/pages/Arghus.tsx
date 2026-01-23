@@ -92,7 +92,25 @@ const Arghus = () => {
       image: brgPng,
     },
     {
-      year: "2018–2023",
+      year: "2017",
+      title: "Clubes europeus",
+      description: "Consistência, disciplina e adaptação em diferentes ligas.",
+      image: nkPng,
+    },
+     {
+      year: "2018",
+      title: "Clubes europeus",
+      description: "Consistência, disciplina e adaptação em diferentes ligas.",
+      image: nkPng,
+    },
+     {
+      year: "2019",
+      title: "Clubes europeus",
+      description: "Consistência, disciplina e adaptação em diferentes ligas.",
+      image: nkPng,
+    },
+     {
+      year: "2020",
       title: "Clubes europeus",
       description: "Consistência, disciplina e adaptação em diferentes ligas.",
       image: nkPng,
@@ -169,7 +187,7 @@ const Arghus = () => {
               <div className="grid grid-cols-3 gap-6">
                 <Stat icon={<Trophy className="w-6 h-6" />} value="12" label="Títulos" />
                 <Stat icon={<Calendar className="w-6 h-6" />} value="16" label="Anos" />
-                <Stat icon={<MapPin className="w-6 h-6" />} value="14" label="Clubes" />
+                <Stat icon={<MapPin className="w-6 h-6" />} value="12" label="Clubes" />
               </div>
             </motion.div>
           </div>

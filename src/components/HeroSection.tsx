@@ -83,7 +83,7 @@ const HeroSection = () => {
     })
   }
 >
-  Ver Resultados
+  Videos
 </Button>
           </motion.div>
         </div>

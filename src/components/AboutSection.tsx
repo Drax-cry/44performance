@@ -92,9 +92,9 @@ const AboutSection = () => {
                 className="absolute inset-0 w-full h-full object-cover object-top"
               />
               <div className="absolute bottom-0 left-0 right-0 p-8 bg-gradient-to-t from-background via-background/80 to-transparent">
-                <p className="font-display text-4xl">12+</p>
+                <p className="font-display text-4xl">15+</p>
                 <p className="font-body text-sm tracking-widest uppercase text-muted-foreground">
-                  Anos de Excelência
+                  carreira profissional
                 </p>
               </div>
             </div>
