@@ -11,6 +11,7 @@ const Header = () => {
     { label: "Resultados", href: "#results" },
     { label: "Sobre", href: "#about" },
     { label: "Contato", href: "#contact" },
+    { label: "Arghus", href: "/arghus", isRoute: true },
   ];
 
   return (

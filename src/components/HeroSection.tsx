@@ -62,12 +62,29 @@ const HeroSection = () => {
             transition={{ duration: 0.6, delay: 0.6 }}
             className="flex flex-col sm:flex-row gap-4"
           >
-            <Button variant="hero" size="xl">
-              Iniciar Jornada
-            </Button>
-            <Button variant="heroOutline" size="xl">
-              Ver Resultados
-            </Button>
+            <Button
+  variant="hero"
+  size="xl"
+  onClick={() =>
+    document.getElementById("contact")?.scrollIntoView({
+      behavior: "smooth",
+    })
+  }
+>
+  Iniciar Jornada
+</Button>
+
+<Button
+  variant="heroOutline"
+  size="xl"
+  onClick={() =>
+    document.getElementById("results")?.scrollIntoView({
+      behavior: "smooth",
+    })
+  }
+>
+  Ver Resultados
+</Button>
           </motion.div>
         </div>
       </div>
