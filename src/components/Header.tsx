@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -41,16 +42,28 @@ const Header = () => {
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-8">
             {navItems.map((item, index) => (
-              <motion.a
+              <motion.div
                 key={item.label}
-                href={item.href}
-                className="font-body text-sm tracking-widest uppercase text-muted-foreground hover:text-foreground transition-colors duration-300"
                 initial={{ opacity: 0, y: -20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.1 }}
               >
-                {item.label}
-              </motion.a>
+                {item.isRoute ? (
+                  <Link
+                    to={item.href}
+                    className="font-body text-sm tracking-widest uppercase text-muted-foreground hover:text-foreground transition-colors duration-300"
+                  >
+                    {item.label}
+                  </Link>
+                ) : (
+                  <a
+                    href={item.href}
+                    className="font-body text-sm tracking-widest uppercase text-muted-foreground hover:text-foreground transition-colors duration-300"
+                  >
+                    {item.label}
+                  </a>
+                )}
+              </motion.div>
             ))}
           </nav>
 
@@ -72,14 +85,25 @@ const Header = () => {
             className="md:hidden pb-6"
           >
             {navItems.map((item) => (
-              <a
-                key={item.label}
-                href={item.href}
-                className="block py-3 font-body text-sm tracking-widest uppercase text-muted-foreground hover:text-foreground transition-colors"
-                onClick={() => setIsOpen(false)}
-              >
-                {item.label}
-              </a>
+              <div key={item.label}>
+                {item.isRoute ? (
+                  <Link
+                    to={item.href}
+                    className="block py-3 font-body text-sm tracking-widest uppercase text-muted-foreground hover:text-foreground transition-colors"
+                    onClick={() => setIsOpen(false)}
+                  >
+                    {item.label}
+                  </Link>
+                ) : (
+                  <a
+                    href={item.href}
+                    className="block py-3 font-body text-sm tracking-widest uppercase text-muted-foreground hover:text-foreground transition-colors"
+                    onClick={() => setIsOpen(false)}
+                  >
+                    {item.label}
+                  </a>
+                )}
+              </div>
             ))}
           </motion.nav>
         )}

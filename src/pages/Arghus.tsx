@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { Trophy, Calendar, MapPin } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import Header from "@/components/Header";
+import ArghusHeader from "@/components/ArghusHeader";
 
 import acPng from "@/assets/ac.png";;
 import agbeJpeg from "@/assets/agbe.jpeg";
@@ -129,7 +129,7 @@ const Arghus = () => {
 
   return (
     <div className="min-h-screen bg-background text-foreground">
-      <Header />
+      <ArghusHeader />
 
       {/* ================= HERO ================= */}
       <section className="pt-32 pb-20 px-6">
