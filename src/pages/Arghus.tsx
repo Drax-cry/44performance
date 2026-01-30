@@ -74,9 +74,8 @@ const Arghus = () => {
     {
       year: "2010 - 2011",
       title: "River plate (SE) - Brasil",
-      description:
-        "clube onde pude jogar e me mostrar como jogador profissional em outro Estado do país. Longe de casa, morando em um Estado lindo e ao mesmo tempo humilde, mas em termos esportivos foi muito importante para o meu amadurecimento. No River Plate de Sergipe consegui me destacar e conquistar meus dois primeiros títulos profissionais, fui bicampeão Sergipano.
-       "Após ter sido destaque no clube, fui negociado com o NK Maribor (SLO).",
+      description: "clube onde pude jogar e me mostrar como jogador profissional em outro Estado do país. Longe de casa, morando em um Estado lindo e ao mesmo tempo humilde, mas em termos esportivos foi muito importante para o meu amadurecimento. No River Plate de Sergipe consegui me destacar e conquistar meus dois primeiros títulos profissionais, fui bicampeão Sergipano.",
+       
       image: rvPng,
     },
     {
