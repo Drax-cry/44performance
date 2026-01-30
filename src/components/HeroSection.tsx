@@ -83,7 +83,7 @@ const HeroSection = () => {
     })
   }
 >
-  Videos
+  Metodologia
 </Button>
           </motion.div>
         </div>
