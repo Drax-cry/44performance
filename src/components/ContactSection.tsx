@@ -55,7 +55,7 @@ const ContactSection = () => {
               <p className="font-body text-sm text-muted-foreground mb-1">
                 Email
               </p>
-              <p className="font-body text-lg">contato@performance.com</p>
+              <p className="font-body text-lg">contato44performance@gmail.com</p>
             </div>
 
             <div className="border border-border p-6 bg-card hover:bg-accent transition-colors duration-300">
