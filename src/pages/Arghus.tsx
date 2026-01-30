@@ -50,91 +50,98 @@ interface TimelineItem {
 ========================= */
 const Arghus = () => {
   const timelineItems: TimelineItem[] = [
-    {
-      year: "2007",
-      title: "juventude - Brasil",
-      description:
-        "assinei meu primeiro contrato profissional como atleta de futebol. Iniciei nos juniores e subi para o profissional para alguns jogos. Comecei a ganhar experiência em treinos e jogos, me destaquei na base e, com isso, recebi uma proposta de empréstimo de uma época para o Reggina IT. Depois do empréstimo, regresso ao clube como capitão e um dos líderes da equipe. 
-",
-      image: juventudePng,
-    },
-    {
-      year: "2008",
-      title: "Reginna - itália",
-      description:
-        "minha primeira experiência na Europa, fui emprestado para os juniores do clube. Uma jornada não tão fácil em termos de distância da minha família e da burocracia com os documentos italianos.",
-      image: rgPng,
-    },
-    {
-      year: "2009",
-      title: "Brasil de Pelotas - Brasil",
-      description: "Meu primeiro e único Gauchão profissional, experiência curta que me ajudou a entender a realidade de jogar no interior do Estado onde vivia.  ",
-      image: esporteClubePelotasPng,
-    },
-    {
-      year: "2010 - 2011",
-      title: "River plate (SE) - Brasil",
-      description: "clube onde pude jogar e me mostrar como jogador profissional em outro Estado do país. Longe de casa, morando em um Estado lindo e ao mesmo tempo humilde, mas em termos esportivos foi muito importante para o meu amadurecimento. No River Plate de Sergipe consegui me destacar e conquistar meus dois primeiros títulos profissionais, fui bicampeão Sergipano.",
-       
-      image: rvPng,
-    },
-    {
-      year: "2011 - 2015",
-      title: " Maribor - Eslovênia",
-      description:
-        "clube onde atingi meu auge no futebol. Cheguei lá desconhecido e saí como um dos atletas mais vitoriosos do clube. Joguei 4 épocas, conquistei 9 títulos, sendo sempre titular e peça importante da equipe. Fiz mais de 100 jogos pelo clube e joguei 40 jogos europeus (Europa League e Champions League). Evoluí como atleta, aprendi mais sobre futebol e a cuidar do corpo, pois estávamos sempre sendo postos à prova nas competições. Fui vendido ao SC Braga (PT).",
-      image: nkPng,
-    },
-    {
-      year: "2015 - 2016",
-      title: "Braga SC - Portugal",
-      description:
-        " clube pelo qual tenho muito carinho. Fui campeão da Taça de Portugal, título que o clube não ganhava há 50 anos. Sempre me dediquei ao máximo para ajudar o clube dentro e fora de campo. Atualmente, ainda represento o clube, fazendo parte da equipe LEGENDS do SC Braga.",
-      image: brgPng,
-    },
-    {
-      year: "2016 - 2017",
-      title: "Excelsior - Holanda",
-      description: "fui emprestado por 1 época e foi o meu pior momento como atleta profissional, pois tive uma lesão seríssima na coxa, que me obrigou a fazer uma delicada cirurgia e fiquei afastado dos gramados por 7 meses, tive que retomar aos poucos os treinos e perdi praticamente a época. ",
-      image: rtPng,
-    },
-     {
-      year: "2017 - 2018",
-      title: "Retorno ao Braga SC - Portugal",
-      description: "Consistência, disciplina e adaptação em diferentes ligas.",
-      image: brgPng,
-    },
-     {
-      year: "2018 - 2019",
-      title: "Panetolikos - Grécia",
-      description: "minha volta por cima, voltei a ser feliz no futebol, recuperei meu nome, prestígio e bom nível, me tornando capitão, líder e um dos destaques do campeonato grego. ",
-      image: azPng,
-    },
-     {
-      year: "2019 - 2020",
-      title: "Académica de Coimbra - Portugal",
-      description: "retornei ao futebol português, aceitei um grande desafio para recolocar o clube no seu devido lugar. Lutamos muitos, tínhamos uma boa equipe mas infelizmente com a pandemia jogamos apenas 6 meses e o campeonato ficou suspenso.
-",
-      image: acPng,
-    },
-      {
-      year: "2020 - 2021",
-      title: "Casa Pia - Portugal",
-      description: " após o recesso do futebol, por causa do COVID, aceitei o projeto do clube, fui muito bem recebido, tenho um carinho especial, as pessoas que trabalham no clube gostam de mim pelo meu esforço e dedicação para ajudar a elevar o nível do clube dentro e fora de campo. ",
-      image: csPng,
-    },
-      {
-      year: "2020 - 2021",
-      title: "aps zakynthos - Portugal",
-      description: "retornei para a Grécia para fazer meu último contrato como atleta profissional de futebol, joguei, fui capitão, diretor e levo experiências para o resto da minha vida",
-      image: azPng,
-    },
-    {
-      year: "2023–∞",
-      title: "Novo capítulo",
-      description: "Transição para mentor e formador de atletas.",
-      image: agbeJpeg,
-    },
+ {
+  year: "2007",
+  title: "Juventude – Brasil",
+  description:
+    "Assinei o meu primeiro contrato profissional como atleta de futebol. Iniciei nos juniores e subi para o profissional, onde atuei em alguns jogos. Comecei a ganhar experiência em treinos e partidas, destaquei-me na base e, com isso, recebi uma proposta de empréstimo de uma época para o Reggina, da Itália. Após o empréstimo, regressei ao clube como capitão e um dos líderes da equipa.",
+  image: juventudePng,
+},
+{
+  year: "2008",
+  title: "Reggina – Itália",
+  description:
+    "A minha primeira experiência na Europa. Fui emprestado para os juniores do clube. Uma jornada não tão fácil, principalmente pela distância da minha família e pela burocracia envolvendo os documentos italianos.",
+  image: rgPng,
+},
+{
+  year: "2009",
+  title: "Brasil de Pelotas – Brasil",
+  description:
+    "Disputei o meu primeiro e único Gauchão profissional. Uma experiência curta, mas importante para compreender a realidade de jogar no interior do estado onde vivia.",
+  image: esporteClubePelotasPng,
+},
+{
+  year: "2010 - 2011",
+  title: "River Plate (SE) – Brasil",
+  description:
+    "Clube onde pude jogar e mostrar o meu valor como jogador profissional em outro estado do país. Longe de casa, vivendo em um estado lindo e ao mesmo tempo humilde. Em termos desportivos, foi fundamental para o meu amadurecimento. No River Plate de Sergipe, destaquei-me e conquistei os meus dois primeiros títulos profissionais, sendo bicampeão Sergipano.",
+  image: rvPng,
+},
+{
+  year: "2011 - 2015",
+  title: "Maribor – Eslovénia",
+  description:
+    "Clube onde atingi o auge da minha carreira no futebol. Cheguei desconhecido e saí como um dos atletas mais vitoriosos da história do clube. Atuei durante quatro épocas, conquistei nove títulos, sempre como titular e peça-chave da equipa. Realizei mais de 100 jogos pelo clube e participei em cerca de 40 jogos europeus (Europa League e Champions League). Evoluí muito como atleta e aprendi a cuidar melhor do meu corpo, pois estávamos constantemente a ser postos à prova nas competições. Fui transferido para o SC Braga, em Portugal.",
+  image: nkPng,
+},
+{
+  year: "2015 - 2016",
+  title: "SC Braga – Portugal",
+  description:
+    "Clube pelo qual tenho um enorme carinho. Fui campeão da Taça de Portugal, um título que o clube não conquistava há 50 anos. Sempre me dediquei ao máximo para ajudar dentro e fora de campo. Atualmente, ainda represento o clube como membro da equipa Legends do SC Braga.",
+  image: brgPng,
+},
+{
+  year: "2016 - 2017",
+  title: "Excelsior – Holanda",
+  description:
+    "Fui emprestado por uma época e vivi o momento mais difícil da minha carreira profissional. Sofri uma lesão grave na coxa, que exigiu uma cirurgia delicada e afastou-me dos relvados por sete meses. O retorno foi gradual e acabei por perder praticamente toda a temporada.",
+  image: rtPng,
+},
+{
+  year: "2017 - 2018",
+  title: "Retorno ao SC Braga – Portugal",
+  description:
+    "Período marcado por consistência, disciplina e capacidade de adaptação em diferentes ligas.",
+  image: brgPng,
+},
+{
+  year: "2018 - 2019",
+  title: "Panetolikos – Grécia",
+  description:
+    "A minha grande volta por cima. Voltei a ser feliz no futebol, recuperei o meu nome, prestígio e alto nível competitivo, tornando-me capitão, líder e um dos destaques do campeonato grego.",
+  image: azPng,
+},
+{
+  year: "2019 - 2020",
+  title: "Académica de Coimbra – Portugal",
+  description:
+    "Regressei ao futebol português para assumir um grande desafio: recolocar o clube no seu devido lugar. Lutámos muito, tínhamos uma boa equipa, mas infelizmente, devido à pandemia, o campeonato foi suspenso após apenas seis meses de competição.",
+  image: acPng,
+},
+{
+  year: "2020 - 2021",
+  title: "Casa Pia – Portugal",
+  description:
+    "Após a paralisação do futebol devido à COVID-19, aceitei o projeto do clube. Fui muito bem recebido e desenvolvi um carinho especial pela instituição. As pessoas que lá trabalham reconhecem o meu esforço e dedicação para elevar o nível do clube dentro e fora de campo.",
+  image: csPng,
+},
+{
+  year: "2021 - 2022",
+  title: "APS Zakynthos – Grécia",
+  description:
+    "Regressei à Grécia para disputar o meu último contrato como atleta profissional. Atuei como jogador, capitão e diretor, acumulando experiências que levarei comigo para o resto da vida.",
+  image: azPng,
+},
+{
+  year: "2023 – ∞",
+  title: "Novo Capítulo",
+  description:
+    "Transição para a carreira de mentor e formador de atletas.",
+  image: agbeJpeg,
+},
+
   ];
 
   // ✅ imagens da seção MOMENTOS
