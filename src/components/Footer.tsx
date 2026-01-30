@@ -12,6 +12,7 @@ const Footer = () => {
     <footer className="py-12 border-t border-border">
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
+          
           <motion.a
             href="#home"
             className="font-display text-xl tracking-widest"
@@ -34,9 +35,23 @@ const Footer = () => {
             ))}
           </div>
 
-          <p className="font-body text-sm text-muted-foreground">
-            © 2026 44 Performance. Todos os direitos reservados.
-          </p>
+          <div className="text-center md:text-right">
+            <p className="font-body text-sm text-muted-foreground">
+              © 2026 44 Performance. Todos os direitos reservados.
+            </p>
+            <p className="text-xs text-muted-foreground">
+              Produzido por{" "}
+              <a
+                href="https://duckagency.pt"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline hover:text-foreground transition-colors"
+              >
+                DuckAgency
+              </a>
+            </p>
+          </div>
+
         </div>
       </div>
     </footer>
