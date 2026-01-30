@@ -54,47 +54,49 @@ const Arghus = () => {
       year: "2007",
       title: "juventude - Brasil",
       description:
-        "Primeiros passos no cenário profissional, destacando-se nas categorias de base.",
+        "assinei meu primeiro contrato profissional como atleta de futebol. Iniciei nos juniores e subi para o profissional para alguns jogos. Comecei a ganhar experiência em treinos e jogos, me destaquei na base e, com isso, recebi uma proposta de empréstimo de uma época para o Reggina IT. Depois do empréstimo, regresso ao clube como capitão e um dos líderes da equipe. 
+",
       image: juventudePng,
     },
     {
       year: "2008",
       title: "Reginna - itália",
       description:
-        "Adaptação ao futebol europeu e amadurecimento competitivo fora do Brasil.",
+        "minha primeira experiência na Europa, fui emprestado para os juniores do clube. Uma jornada não tão fácil em termos de distância da minha família e da burocracia com os documentos italianos.",
       image: rgPng,
     },
     {
       year: "2009",
-      title: "Esporte Clube Pelotas - Brasil",
-      description: "Participação no Gauchão, ganhando rodagem e ritmo.  ",
+      title: "Brasil de Pelotas - Brasil",
+      description: "Meu primeiro e único Gauchão profissional, experiência curta que me ajudou a entender a realidade de jogar no interior do Estado onde vivia.  ",
       image: esporteClubePelotasPng,
     },
     {
       year: "2010 - 2011",
       title: "River plate (SE) - Brasil",
       description:
-        "Fase vitoriosa que fortaleceu sua confiança e liderança em campo. 2X campeão sergipano.",
+        "clube onde pude jogar e me mostrar como jogador profissional em outro Estado do país. Longe de casa, morando em um Estado lindo e ao mesmo tempo humilde, mas em termos esportivos foi muito importante para o meu amadurecimento. No River Plate de Sergipe consegui me destacar e conquistar meus dois primeiros títulos profissionais, fui bicampeão Sergipano.
+       "Após ter sido destaque no clube, fui negociado com o NK Maribor (SLO).",
       image: rvPng,
     },
     {
       year: "2011 - 2015",
       title: " Maribor - Eslovênia",
       description:
-        "Início sólido no futebol europeu com títulos e regularidade. 4x liga eslovena, 2x taça eslovena, 3 Supertaças da Eslovênia.",
+        "clube onde atingi meu auge no futebol. Cheguei lá desconhecido e saí como um dos atletas mais vitoriosos do clube. Joguei 4 épocas, conquistei 9 títulos, sendo sempre titular e peça importante da equipe. Fiz mais de 100 jogos pelo clube e joguei 40 jogos europeus (Europa League e Champions League). Evoluí como atleta, aprendi mais sobre futebol e a cuidar do corpo, pois estávamos sempre sendo postos à prova nas competições. Fui vendido ao SC Braga (PT).",
       image: nkPng,
     },
     {
       year: "2015 - 2016",
       title: "Braga SC - Portugal",
       description:
-        "Grande fase em Portugal com jogos de alto nível e visibilidade. 1x Taça de Portugal.",
+        " clube pelo qual tenho muito carinho. Fui campeão da Taça de Portugal, título que o clube não ganhava há 50 anos. Sempre me dediquei ao máximo para ajudar o clube dentro e fora de campo. Atualmente, ainda represento o clube, fazendo parte da equipe LEGENDS do SC Braga.",
       image: brgPng,
     },
     {
       year: "2016 - 2017",
       title: "Excelsior - Holanda",
-      description: "Consistência, disciplina e adaptação em diferentes ligas.",
+      description: "fui emprestado por 1 época e foi o meu pior momento como atleta profissional, pois tive uma lesão seríssima na coxa, que me obrigou a fazer uma delicada cirurgia e fiquei afastado dos gramados por 7 meses, tive que retomar aos poucos os treinos e perdi praticamente a época. ",
       image: rtPng,
     },
      {
@@ -106,25 +108,26 @@ const Arghus = () => {
      {
       year: "2018 - 2019",
       title: "Panetolikos - Grécia",
-      description: "Consistência, disciplina e adaptação em diferentes ligas.",
+      description: "minha volta por cima, voltei a ser feliz no futebol, recuperei meu nome, prestígio e bom nível, me tornando capitão, líder e um dos destaques do campeonato grego. ",
       image: azPng,
     },
      {
       year: "2019 - 2020",
       title: "Académica de Coimbra - Portugal",
-      description: "Consistência, disciplina e adaptação em diferentes ligas.",
+      description: "retornei ao futebol português, aceitei um grande desafio para recolocar o clube no seu devido lugar. Lutamos muitos, tínhamos uma boa equipe mas infelizmente com a pandemia jogamos apenas 6 meses e o campeonato ficou suspenso.
+",
       image: acPng,
     },
       {
       year: "2020 - 2021",
       title: "Casa Pia - Portugal",
-      description: "Consistência, disciplina e adaptação em diferentes ligas.",
+      description: " após o recesso do futebol, por causa do COVID, aceitei o projeto do clube, fui muito bem recebido, tenho um carinho especial, as pessoas que trabalham no clube gostam de mim pelo meu esforço e dedicação para ajudar a elevar o nível do clube dentro e fora de campo. ",
       image: csPng,
     },
       {
       year: "2020 - 2021",
       title: "aps zakynthos - Portugal",
-      description: "Consistência, disciplina e adaptação em diferentes ligas.",
+      description: "retornei para a Grécia para fazer meu último contrato como atleta profissional de futebol, joguei, fui capitão, diretor e levo experiências para o resto da minha vida",
       image: azPng,
     },
     {
