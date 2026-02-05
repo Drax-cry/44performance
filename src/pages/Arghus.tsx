@@ -111,7 +111,7 @@ const Arghus = () => {
   title: "Panetolikos – Grécia",
   description:
     "A minha grande volta por cima. Voltei a ser feliz no futebol, recuperei o meu nome, prestígio e alto nível competitivo, tornando-me capitão, líder e um dos destaques do campeonato grego.",
-  image: azPng,
+  image: grPng,
 },
 {
   year: "2019 - 2020",
