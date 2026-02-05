@@ -11,7 +11,7 @@ const highlights = [
   {
     icon: Trophy,
     title: "TITULOS CONQUISTADOS",
-    description: "1X Taça de Portugal,4x Campeão da Eslovénia, 2X taça da Eslovénia.",
+    description: "1X Taça de Portugal,4x Liga Eslovénia, 2X taça da Eslovénia,3x Supertaça Eslovénia,2x Campeonato Sergipano",
   },
   {
     icon: Clock,
